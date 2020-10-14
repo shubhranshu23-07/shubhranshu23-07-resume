@@ -1,92 +1,204 @@
 *{
   box-sizing: border-box; 
 }
-
 body{
   margin: 0px;
   padding:10px; 
   text-align:"center" ;
 }
 header{
-  padding: 20px;
-background-color: #001b33;
-color: white;
-text-align: center;
-border: 1px solid black;
+     padding: 20px;
+      background-color: #001b33;
+      color: white;
+      text-align: center;
+      border: 1px solid black;
+      }
+      section{
+          width:25%;
+          height:2000px;
+          float: left;
+          background:white ;
+           color:black;
+        }
+        .right{
+          width: 75%;
+          float: left;
+          height: 2000px;
+          background:white ;
+          border-left: 1px solid black;
+          border-radius: 10px;
+        }
+        .outer{
+          margin:10px 0px;
+        }
+        .outer::after{
+          content:"";
+          clear: both;
+          display: table;
+        }
+        img{
+          height: 150px;
+          width: 150px;
+         margin-left: 70px;
+         height: 150px;
+         width: 150px;
+         margin-top: 0px;
+         margin-bottom:1px;
+          border-radius: 110px;
+        }
+           .PI{
+            text-align: left ;
+            margin-top: -200px;
+            margin-left: -10px;
+              }
+            #kd{
+              font-family: 'Courier New', Courier, monospace;
+              font-size: 25px;
+              font-weight: lighter;
+            }
+            .image {
+              text-align: right;
+            }
+            #name{
+          font-size: 25px;
+              font-family: 'Courier New', Courier, monospace;
+            }
+            *{
+              font-family: 'Courier New', Courier, monospace;
+              list-style:none;
+              padding:0;
+              }
+              .skills h1{
+                  font-family: 'Courier New', Courier, monospace;
+                  font-size: 25px;
+                  border: 1px solid black;
+                  background:grey;
+                   text-align: center ;
+            
+              }
+              .skills li{
+                  margin:30px 0;
+                  font-size: 20px;
+                  }
+                  .bar{
+                      background: #353b48;
+                      display: block;
+                      height:2px;
+                      border:3px solid rgba(0,0,0.3);
+                      border-radius:3px;
+                      overflow:0 0 10px #2187e7b3;
+                      }
+                      .bar span{
+                          height:2px;
+                          float: left;
+                          background:yellow;
+                          }
+                          .html{
+                              width: 70%;
+                              animation: html 2s;
+                              }
+                              .css{
+                              width: 40%;
+                              animation: css 2s;
+                              }
+                              .java{
+                              width: 30%;
+                              animation: java 2s;
+                              }
+                              .dbms{
+                              width: 30%;
+                              animation: dbms 2s;
+                              }
+                              @keyframes html{
+                              0%{
+                              width:0%;
+                              }
+                              100%{
+                              width:90%;
+                              }
+                              }
+                              @keyframes css{
+                              0%{
+                              width:0%;
+                              }
+                              100%{
+                              width:40%;
+                              }
+                              }
+                              @keyframes java{
+                              0%{
+                              width:0%;
+                              }
+                              100%{
+                              width:30%;
+                              }
+                              }
+                              @keyframes dbms{
+                              0%{
+                              width:0%;
+                              }
+                              100%{
+                              width:30%;
+                              }
+                              }
+                              #obj{
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 25px;
+                                border: 1px solid black;
+                                background:grey;
+                                 text-align: center ;
+                               }
+                               #ojb{
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 25px;
+                                font-weight: lighter;
+                               }
+                               #ad {
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 25px;
+                                border: 1px solid black;
+                                background: grey;
+                                 text-align: center ;
+                               }
+                                table, th, td {
+                                    border: 1px solid black;
+                                  border-collapse:collapse;
+                                  }
+                                  th, td {
+                                    padding:20px;
+                                  }
+                                  th,td {
+                                    text-align: center;
+                                    width: 190px;
+                                    font-size: 20px;
+                                  }
+                                #A{
+                                  font-family: 'Courier New', Courier, monospace;
+                                font-size: 25px;
+                                border: 1px solid black;
+                                background: grey;
+                                 text-align: center ; 
 
+}
+#B li{
+  font-size: 50px;
+  text-align: center;
+  display: inline;
+  margin: 5px;
+  padding: 10px;
 
 }
-section{
-  width:25%;
-  height:2000px;
-  float: left;
-  background:white ;
-  border-radius: 20px;
-  color:black;
-} 
-.right{
-  width: 75%;
-  float: left;
-  height: 2000px;
-  background:white ;
-  border-left: 2px solid black;
-  border-radius: 10px;
+.list li{
+  text-align: center;
+  
 
+ 
 }
-.outer{
-  margin:10px 0px;
-}
-.outer::after{
-  content:"";
-  clear: both;
-  display: table;
-}
-#image{
-  height: 200px;
-  width: 200px;
-  margin-top: 0px;
-  margin-bottom:1px;
-  margin-left:1px ;
-  border-radius: 110px;
- }
- #obj{
+#dels{
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   border: 1px solid black;
-  background:yellowgreen;
-   text-align: center ;
- }
- #ojb{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
-  font-weight: lighter;
-
- }
- #ad {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background: yellowgreen;
-   text-align: center ;
- }
- #dec{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background:yellowgreen;
-   text-align: center ;
- }
- #ced{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
-  font-weight: lighter;
-
- }
- #dels{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background:yellowgreen;
+  background:grey;
    text-align: center ;
  }
  #seld{
@@ -94,163 +206,67 @@ section{
   font-size: 25px;
   margin : 5px;
   }
-
- }
- #nts {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background: yellowgreen;
-   text-align: center ;
-  }
- #lo{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
-  font-weight: lighter;
-
- }
- *{
-  font-family: 'Courier New', Courier, monospace;
-  list-style:none;
-  padding:0;
-  }
-  .skills{
-  width:550px;
-  margin: 0px auto;
-  background: white;
-  color: black;
-  height: 400px;
-
-  }
-  .skills li{
-  margin:30px 0;
-  font-size: 20px;
-  }
-  .bar{
-  background: #353b48;
-  display: block;
-  height:2px;
-  border:3px solid rgba(0,0,0.3);
-  border-radius:3px;
-  overflow:0 0 10px #2187e7b3;
-  }
-  .bar span{
-  height:2px;
-  float: left;
-  background:yellow;
-  }
-  .html{
-  width: 70%;
-  animation: html 2s;
-  }
-  .css{
-  width: 40%;
-  animation: css 2s;
-  }
-  .java{
-  width: 30%;
-  animation: java 2s;
-  }
-  .dbms{
-  width: 30%;
-  animation: dbms 2s;
-  }
-  @keyframes html{
-  0%{
-  width:0%;
-  }
-  100%{
-  width:90%;
-  }
-  }
-  @keyframes css{
-  0%{
-  width:0%;
-  }
-  100%{
-  width:40%;
-  }
-  }
-  @keyframes java{
-  0%{
-  width:0%;
-  }
-  100%{
-  width:30%;
-  }
-  }
-  @keyframes dbms{
-  0%{
-  width:0%;
-  }
-  100%{
-  width:30%;
-  }
-  }
-  #counts{
+  #commu{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     border: 1px solid black;
-    background: yellowgreen;
-     text-align: center ;
+    background: grey;
+    text-align: center;
   }
-  .media{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 70px;
-    border: 1px solid black;
-    background:white;
-     text-align: center ;
-     color: black;
-     width: 550px;
-  }
-  .profile{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    border: 1px solid black;
-    background: yellowgreen;
-    text-align: center ;
-    color:white;
-  }
- .details{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 23px;
-   color: white;
- }
- .traits{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background:yellowgreen;
-  text-align: center ;
- }
- #commu{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background: yellowgreen;
-  text-align: center;
-  
- }
- .communication{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 25px;
- }
- footer{
-  padding: 20px;
-  background: #001b33;
-  color:whitesmoke;
-  text-align: center;
-  border: 1px solid black;
-  
- }
- #hobby{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
-  border: 1px solid black;
-  background: yellowgreen;
-  text-align: center;
- }
- .list-inline {
-   font-size: 70px;
- }
- 
+    #lo{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+      font-weight: lighter;
+    }
+    .traits{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      border: 1px solid black;
+      background:grey;
+      text-align: center ;
+    }
+    .communication{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+    }
+    footer{
+      padding: 20px;
+      background: #001b33;
+      color:whitesmoke;
+      text-align: center;
+      border: 1px solid black;
+      
+     }
+     .O{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      text-align: center;
+    
+     }
+     #hobby{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+      border: 1px solid black;
+      background: grey;
+      text-align: center;
+     }
+    .list-inline{
+       font-size: 40px;
+     
+     }
+     .list-inline li{
+      display: block;
+      font-size: 20px;
+     }
+     #dec{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      border: 1px solid black;
+      background:grey;
+       text-align: center ;
+     }
+     #ced{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+      font-weight: lighter;
+    
